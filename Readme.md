@@ -4,10 +4,10 @@ A **stateful AI chatbot** built with **LangGraph**, **LangChain** and **Groq**, 
 
 ## 📸 Screenshots
 
-### Main UI
+### chat UI
 ![Main UI](Screenshot/UI.png)
 
-### Chat in Action
+### Main Action
 ![Chat in Action](Screenshot/UI_2.png)
 
 ## ✨ Features
@@ -121,13 +121,3 @@ GROQ_MODEL_OPTIONS = openai/gpt-oss-120b, openai/gpt-oss-20b, qwen/qwen3.8-27b
 - The Groq free tier has rate limits per model (requests and tokens per minute and per day). If you hit a `429` error, wait for the limit to reset or switch to another model.
 - Preview models (for example Qwen) can be discontinued at short notice.
 - Never commit your API key to GitHub.
-
-## 🗺️ Roadmap
-
-- [ ] Add more use cases (chatbot with tools, web search)
-- [ ] Add more LLM providers
-- [ ] Add conversation memory options
-
-## 📄 License
-
-This project is for learning and practice. Add a license of your choice here.
